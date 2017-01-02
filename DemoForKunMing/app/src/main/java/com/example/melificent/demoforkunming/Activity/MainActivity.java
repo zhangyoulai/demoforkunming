@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import com.example.melificent.demoforkunming.Fragment.MapFragment;
 import com.example.melificent.demoforkunming.Fragment.MessageFragment;
+import com.example.melificent.demoforkunming.Fragment.ModifySearchFragment;
 import com.example.melificent.demoforkunming.Fragment.OprationFragment;
 import com.example.melificent.demoforkunming.Fragment.SearchFragmnet;
 import com.example.melificent.demoforkunming.R;
@@ -145,7 +146,7 @@ private RadioGroup radioGroup;
     private void setAdapter(){
         fragments = new ArrayList();
         fragments.add(new MapFragment());
-        fragments.add(new SearchFragmnet());
+        fragments.add(new ModifySearchFragment());
         fragments.add(new OprationFragment());
         fragments.add(new MessageFragment());
         adapter = new MainAdapter(getSupportFragmentManager());

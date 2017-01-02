@@ -108,10 +108,12 @@
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="sensor"
             android:exported="true"></activity>
+
         <activity android:name=".Activity.GongdianActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="sensor"
             android:exported="true"></activity>
+
         <activity android:name=".Activity.RiChang"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="sensor"
@@ -130,8 +132,15 @@
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="sensor"
             android:exported="true"></activity>
+        <activity android:name=".Activity.GasActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"></activity>
 
-            
+        <activity android:name=".Activity.EquipmentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor"
+            android:exported="true"></activity>
 
 
     </application>

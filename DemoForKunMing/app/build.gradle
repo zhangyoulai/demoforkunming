@@ -45,4 +45,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/BaiduLBS_Android.jar')
     compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('libs/butterknife-4.0.1.jar')
+    compile files('libs/mpchartlib.jar')
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 }

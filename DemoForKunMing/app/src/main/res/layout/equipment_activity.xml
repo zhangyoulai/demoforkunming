@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:background="#f8f8f8"
+        android:paddingBottom="5dp">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:id="@+id/equipment_back_to_main"
+            android:src="@drawable/back2"
+            android:background="#f8f8f8"
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/equipment_search_content"
+            android:hint="搜索"
+            android:background="@drawable/serach_input"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp"
+            android:gravity="left|center"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/equipment_search_button"
+            android:text="搜索"
+            android:background="@drawable/search_button"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_image_details"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/fengji"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="风机"
+            android:textColor="#0000ff"
+            android:textSize="24sp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/equipment_text_details"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="使用年限 ：三年"
+            android:gravity="center"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="维修记录 ：更换风叶"
+            android:gravity="center"
+            android:textSize="18sp"/><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="安装位置 ：一号管廊"
+        android:gravity="center"
+        android:textSize="18sp"/><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="归属单位 ：后勤"
+        android:gravity="center"
+        android:textSize="18sp"/><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="设备编号 ：SVNW0013"
+        android:gravity="center"
+        android:textSize="18sp"/><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+            android:text="采购国家 ：日本"
+        android:gravity="center"
+        android:textSize="18sp"/><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="最大负载 ：300pw"
+        android:gravity="center"
+        android:textSize="18sp"/><TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="荷载电压 ：380V"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
